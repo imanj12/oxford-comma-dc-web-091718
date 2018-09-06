@@ -12,5 +12,6 @@ def oxford_comma(array)
         string += "#{ele}, "
       end
     end
-  end  
+  end
+  puts string
 end
