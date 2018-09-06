@@ -7,9 +7,9 @@ def oxford_comma(array)
     string = ""
     array.each_with_index do |ele, i|
       if i == array.length - 1
-        string += " and #{ele}"
+        string += "and #{ele}"
       else
-        string += ""
+        string += "#{ele}, "
       end
     end
   end  
